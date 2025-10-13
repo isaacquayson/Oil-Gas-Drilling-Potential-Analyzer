@@ -335,7 +335,10 @@ Conduct detailed audits for top-ranked fields:
 - Capture **best practices** and **operational efficiencies** for replication across other assets.
 
 
+---
+### PRODUCTION OVERVIEW
 
+![](https://github.com/isaacquayson/Oil-Gas-Drilling-Potential-Analyzer/blob/main/Screenshot%202025-10-13%20200027.png)
 
 
 
