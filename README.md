@@ -350,7 +350,7 @@ Conduct detailed audits for top-ranked fields:
 ---
 ### FIELDS RANKING
 
-
+![](https://github.com/isaacquayson/Oil-Gas-Drilling-Potential-Analyzer/blob/main/Screenshot%202025-10-13%20195921.png)
 
 
 
