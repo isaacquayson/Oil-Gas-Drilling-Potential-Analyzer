@@ -341,7 +341,14 @@ Conduct detailed audits for top-ranked fields:
 ![](https://github.com/isaacquayson/Oil-Gas-Drilling-Potential-Analyzer/blob/main/Screenshot%202025-10-13%20200027.png)
 
 
+---
+### MAP
 
+![](https://github.com/isaacquayson/Oil-Gas-Drilling-Potential-Analyzer/blob/main/Screenshot%202025-10-13%20195945.png)
+
+
+---
+### FIELDS RANKING
 
 
 
