@@ -6,15 +6,6 @@ This dashboard and analysis identify and rank locations with the highest potenti
 
 ---
 
-## Key Findings (High-Level)
-
-- **Top County:** Chautauqua (highest combined oil + gas production in the dataset)
-- **Top Formations:** Medina, Queenston, and Bradford show the strongest production/synergy
-- **Top Field (by Production Score):** Brazos Field (score: 92) — highest drilling potential
-- **Operational Signal:** ~87% of wells are active in the current filtered context, indicating a largely active asset base
-
----
-
 # 2. Problem Statement & Objectives
 
 ## Problem Statement
@@ -38,9 +29,7 @@ Identify and rank high-potential locations (fields/counties/formations) for new 
 
 # 3. Data Overview & Dictionary
 
-## Dataset
-
-## Important Cleaning Notes (Applied)
+## Important Cleaning Steps Taken
 
 - Standardized column names to.
 - Converted inconsistent date formats into a single `production_date_entered` datetime field.  
@@ -51,7 +40,7 @@ Identify and rank high-potential locations (fields/counties/formations) for new 
 
 ---
 
-## Data Dictionary (Key Columns)
+## Data Dictionary
 
 | Column Name (Clean)        | Description |
 |-----------------------------|-------------|
@@ -77,9 +66,6 @@ Identify and rank high-potential locations (fields/counties/formations) for new 
 | `location`                  | Town + coordinates text (if available) |
 | `latitude`                  | Parsed latitude (nullable) |
 | `longitude`                 | Parsed longitude (nullable) |
-| `total_production_boe`      | Derived: `oil_produced_bbl + gas_produced_mcf * 0.178` |
-| `total_wells`               | Derived: sum of active + inactive oil & gas wells |
-| `active_well_ratio`         | Derived: `(active_oil_wells + active_gas_wells) / total_wells` |
 
 ---
 
@@ -87,7 +73,7 @@ Identify and rank high-potential locations (fields/counties/formations) for new 
 
 > **1 Mcf ≈ 0.178 barrel of oil equivalent (BOE)**  
 
-# 4. Tools, Environment & Versions
+# 4. Tools
 
 ## Tools Used
 
@@ -106,7 +92,7 @@ Identify and rank high-potential locations (fields/counties/formations) for new 
 - **Production year:** Stored as a numeric integer.  
 - **Missing numeric cells:** Replaced with `0` where values were clearly missing or null.
 
-# 5. Data Preparation & Cleaning Steps (Summary)
+# 5. Data Preparation & Cleaning Steps
 
 1. **Load Data**  
    - Imported the original Excel sheet into **Power Query**.
@@ -137,7 +123,7 @@ Identify and rank high-potential locations (fields/counties/formations) for new 
 
 ---
 
-# 6. Key Measures & DAX (Copy-Paste Ready)
+# 6. Key Measures & DAX Measures
 
 ## Core Production Measures
 
@@ -314,7 +300,7 @@ Here’s your section written cleanly and professionally in **GitHub README.md**
 
 ---
 
-# 9. Recommendations (Actionable)
+# 9. Recommendations
 
 ---
 
@@ -351,26 +337,3 @@ Conduct detailed audits for top-ranked fields:
 ### FIELDS RANKING
 
 ![](https://github.com/isaacquayson/Oil-Gas-Drilling-Potential-Analyzer/blob/main/Screenshot%202025-10-13%20195921.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
