@@ -274,7 +274,7 @@ Here’s your section written cleanly and professionally in **GitHub README.md**
 
   
 
-# 8. Insights & Interpretation 
+# 8. Insights
 
 ---
 
